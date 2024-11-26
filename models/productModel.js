@@ -12,6 +12,6 @@ required: true
 description: String,									
 });									
 									
-const Product = mongoose.model('Product', productSchema);									
+const Product = mongoose.model('Product', productSchema, 'foods');									
 									
 module.exports = Product;									

@@ -23,7 +23,7 @@ app.use(methodOverride('_method'));
 app.use(express.static('public')); // Để phục vụ tệp tĩnh (CSS, JS)											
 											
 // Sử dụng routes											
-app.use('/products', productRoutes);											
+app.use('/foods', productRoutes);											
 											
 // Khởi động server											
 app.listen(PORT, () => {											
